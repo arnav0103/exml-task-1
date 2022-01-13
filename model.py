@@ -43,7 +43,7 @@ model.compile(loss= 'binary_crossentropy',
               metrics =['accuracy'])
 #Test_predicitions
 model_fit = model.fit(train_dataset,
-                      epochs = 5,            
+                      epochs = 20,            
                       validation_data = check_dataset)
 
 dir_path = 'test'
